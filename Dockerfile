@@ -2,9 +2,9 @@ FROM alpine:3
 
 # hadolint ignore=DL3018
 RUN \
-  apk add --no-cache tini rsync openssh && \
+  apk add --no-cache rsync openssh && \
   mkdir /etc/cron.d
 
-ENTRYPOINT ["/sbin/tini", "--"]
+ENTRYPOINT ["/usr/sbin/crond"]
 
-CMD ["crond", "-f", "-d", "8"]
+CMD ["-f", "-d", "8"]
