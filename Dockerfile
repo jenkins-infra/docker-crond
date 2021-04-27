@@ -9,3 +9,6 @@ RUN \
 ENTRYPOINT ["/usr/sbin/crond"]
 
 CMD ["-f", "-d", "8"]
+
+LABEL io.jenkins-infra.tools="crond"
+LABEL io.jenkins-infra.tools.crond.version="latest"

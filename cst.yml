@@ -1,0 +1,9 @@
+schemaVersion: 2.0.0
+metadataTest:
+  labels:
+    - key: io.jenkins-infra.tools
+      value: "crond"
+    - key: io.jenkins-infra.tools.crond.version
+      value: "latest"
+  entrypoint: ["/usr/sbin/crond"]
+  cmd:  ["-f", "-d", "8"]
