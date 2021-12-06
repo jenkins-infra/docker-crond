@@ -1,5 +1,1 @@
-buildDockerAndPublishImage('crond', [
-  mainBranch: 'main',
-  automaticSemanticVersioning: true,
-  gitCredentials: 'github-app-infra'
-])
+parallelDockerUpdatecli([imageName: 'crond', rebuildImageOnPeriodicJob: false])
