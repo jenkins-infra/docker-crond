@@ -1,1 +1,1 @@
-parallelDockerUpdatecli([imageName: 'crond', rebuildImageOnPeriodicJob: false])
+buildDockerAndPublishImage('crond')
