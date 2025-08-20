@@ -1,8 +1,6 @@
-# docker-crond
+> [!CAUTION]
+> This Docker image is archived. You should not use it.
+> 
+> Ref. https://github.com/jenkins-infra/helpdesk/issues/4775.
 
-Simple crond daemon docker image.
-
-## Contribute
-
-If you want to contribute, or build/test the Docker Image, please refer to the following documentation about Docker images for the Jenkins Infra project:
-[README](https://github.com/jenkins-infra/pipeline-library/blob/master/resources/io/jenkins/infra/docker/README.adoc)
+ 
